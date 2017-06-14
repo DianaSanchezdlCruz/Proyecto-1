@@ -57,14 +57,14 @@ public class Juego {
             texto = "menor";
         }
         return texto;
-}
+    }
 
-    public String getNumeroSecreto() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public int getNumeroSecreto() { 
+     return this.numeroSecreto.getNumeroSecreto();
     }
     
     
-    }
-    
+}
+ 
 
     
